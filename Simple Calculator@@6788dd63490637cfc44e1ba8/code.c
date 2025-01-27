@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    float c;
+    float a,b;
+    int c;
     char choice;
     scanf("%f %f %c",&a,&b,&choice);
     switch(choice)
