@@ -7,15 +7,12 @@ int main()
     {
         ctr++;
     }
-    for (i=97;i<=122;i++)
-    {
-        dc++;
-    }
-    
-    if (dc!=0)
+    if (ctr!=0)
         printf("Lowercase");
-    else if (ctr!=0)
+    else
         printf("Uppercase");
+    
+    
         
     return 0;
 }
