@@ -12,7 +12,17 @@ int main()
         printf("%d",c);
         break;
         case '-':
-        c=a-b;
+        if (a>b){
+            c=a-b;
+            printf("%d",c);
+        }
+        else
+        {
+            c=b-a;
+            printf("%d",c);
+        }
+        break;
+
         printf("%d",c);
         break;
         case '*':
