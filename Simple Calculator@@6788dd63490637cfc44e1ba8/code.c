@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c;
+    float a,b;
+    int c;
     char choice;
-    scanf("%d %d %c",&a,&b,&choice);
+    scanf("%f %f %c",&a,&b,&choice);
     switch(choice)
     {
         case '+':
