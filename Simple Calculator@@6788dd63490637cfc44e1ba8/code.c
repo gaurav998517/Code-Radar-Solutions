@@ -2,7 +2,7 @@
 int main()
 {
     float a,b;
-    int c;
+    float c;
     char choice;
     scanf("%f %f %c",&a,&b,&choice);
     switch(choice)
