@@ -3,7 +3,7 @@
 int main()
 {
     int a,b;
-    scamnf("%d %d",&a,&b);
+    scanf("%d %d",&a,&b);
     printf("Yes");
     return 0;
 }
