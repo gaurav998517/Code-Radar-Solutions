@@ -8,8 +8,10 @@ int main()
     {
         if (a==i)
             printf("In Range");
+            break;
         else
             printf("Out of Range");
+            break;
     }
     return 0;
 }
