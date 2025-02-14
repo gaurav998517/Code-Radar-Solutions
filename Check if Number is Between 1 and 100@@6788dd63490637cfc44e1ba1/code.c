@@ -6,12 +6,14 @@ int main()
     scanf("%d",&a);
     for (i=1;i<=100;i++)
     {
-        if (a==i)
+        if (a==i){
             printf("In Range");
             break;
-        else
+        }
+        else{
             printf("Out of Range");
             break;
+        }
     }
     return 0;
 }
