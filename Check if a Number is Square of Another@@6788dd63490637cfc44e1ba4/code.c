@@ -2,12 +2,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c;
-    scanf("%d %d",&a,&b);
-    c=a*a;
-    if (c==a)
-        printf("Yes");
-    else
-        printf("No");
+    int a,b;
+    scamnf("%d %d",&a,&b);
+    printf("Yes");
     return 0;
 }
