@@ -2,12 +2,10 @@
 #include <stdio.h>
 int main()
 {
-    int a,msb;
-    scanf("%d",&a);
-    msb=1<<31;
-    if (a&msb)
-        printf("Set");
+   int a;
+   scanf("%d",&a);
+   if (a & 1<<31)
+    printf("Set");
     else
-        printf("Not Set");
-    return 0;
+    printf("Not Set");
 }
