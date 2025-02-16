@@ -4,16 +4,9 @@ int main()
 {
     int a,i;
     scanf("%d",&a);
-    for (i=1;i<=100;i++)
-    {
-        if (a==i){
-            printf("In Range");
-            break;
-        }
-        else{
-            printf("Out of Range");
-            break;
-        }
-    }
+    if (a>=1 && a<=100)
+        printf("In Range");
+    else
+        printf("Out of Range");
     return 0;
 }
