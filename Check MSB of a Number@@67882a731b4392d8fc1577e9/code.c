@@ -2,9 +2,10 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int a,msb;
     scanf("%d",&a);
-    if (a||1<<31)
+    msb=1<<31;
+    if (a&msb)
         printf("Set");
     else
         printf("Not Set");
