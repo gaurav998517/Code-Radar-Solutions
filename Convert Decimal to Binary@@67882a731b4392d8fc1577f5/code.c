@@ -9,7 +9,7 @@ int main()
         if (n &(1<<i))
             flag=1;
         if (flag)
-            printf("%d",(n & (1<<n)?1:0));
+            printf("%d",(n & (1<<i)?1:0));
     }
     if (!flag)
         printf("0");
