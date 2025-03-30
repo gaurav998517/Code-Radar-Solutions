@@ -18,6 +18,7 @@ int main()
         for (int q=1;q<=i-1;q++)
         {
             printf("%d",a);
+            a++;
         }
 
         printf("\n");
