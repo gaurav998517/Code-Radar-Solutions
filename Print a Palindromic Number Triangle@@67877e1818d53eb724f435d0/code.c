@@ -14,6 +14,11 @@ int main()
         {
             printf("%d",k);
         }
+        for (int q=1;q<=i-1;q++)
+        {
+            printf("%d",q);
+        }
+
         printf("\n");
     }
     return 0;
